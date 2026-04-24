@@ -1,16 +1,13 @@
 """
-Crime Analytics Dashboard - India
-Run: streamlit run dashboard/app.py
+Crime Analytics Dashboard - India - NO DATABASE VERSION
 """
 
 from __future__ import annotations
 
-import os
 from pathlib import Path
 
 import pandas as pd
 import plotly.express as px
-import psycopg2
 import streamlit as st
 
 
